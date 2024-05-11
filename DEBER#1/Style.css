@@ -1,0 +1,25 @@
+body {
+    color: rgb(10, 113, 87);
+    background-color: white;
+}
+#Seccion1 {
+    font-size: 60px;
+    text-align: center;
+    background-image: image-set('Imagenes/FONDO.PNG');
+    background-size: 300px 100px;
+
+}
+#Proyectos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.Proyecto img {
+    height: 100px;
+} 
+.Boton{
+    text-align: right;
+    background-color: rgba(255, 0, 30, 0.687);
+    color: azure;
+    border: 10px solid azure; 
+    padding: 5px;
+}
